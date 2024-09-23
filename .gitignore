@@ -1,0 +1,41 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.DS_Store
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.pot
+*.mo
+
+# Streamlit specific
+.streamlit/
+
+# Environments and virtual environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Various system files
+*.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
