@@ -1,5 +1,3 @@
-Package                   Version
-------------------------- --------------
 altair                    5.3.0
 annotated-types           0.6.0
 anyio                     4.3.0
