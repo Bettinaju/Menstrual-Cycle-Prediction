@@ -1,14 +1,11 @@
 import streamlit as st
 import numpy as np
 from datetime import timedelta
-import locale
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
-
-locale.setlocale(locale.LC_ALL, 'de_DE')
 
 data = pd.read_csv('PreparedMenstruationCycleDataset.csv')
 
